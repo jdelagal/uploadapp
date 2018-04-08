@@ -1,0 +1,16 @@
+{
+  "name": "uploadapp",
+  "version": "1.0.0",
+  "description": "poc upload datapower mx",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "form-data": "^2.3.2"
+  }
+}
