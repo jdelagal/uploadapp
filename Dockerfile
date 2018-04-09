@@ -4,7 +4,7 @@ RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
 COPY package.json  app.js ./
-COPY node-module node-module/
+COPY uploads uploads/
 
 ARG NPM_REGISTRY
 ENV npm_config_registry ${NPM_REGISTRY:-https://registry.npmjs.com}
